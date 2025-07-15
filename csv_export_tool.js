@@ -37,7 +37,7 @@ customExporter.render = function (data, config, env) {
     let csv = selectedHeaders.join(',') + '\n';
 
     rows.forEach(row => {
-      const line = selectedIndexes.map(i => \`"\${row[i].formatted || row[i].value}"\`).join(',');
+      const line = selectedIndexes.map(i => `"${row[i].formatted || row[i].value}"`).join(',');
       csv += line + '\n';
     });
 
