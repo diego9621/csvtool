@@ -1,0 +1,19 @@
+{
+  "name": "Custom CSV Export Tool",
+  "id": "csv_export_tool",
+  "description": "Lets users select columns to export to CSV",
+  "resources": {
+    "js": ["csv_export_tool.js"]
+  },
+  "style": {},
+  "theme": {},
+  "data": {
+    "dimensions": -1,
+    "metrics": -1
+  },
+  "features": {
+    "export": true
+  },
+  "allowStyle": true,
+  "allowInteraction": true
+}
